@@ -1,12 +1,15 @@
-function taskFirst() {
-  const name = 'John';
-  const age = 32;
-  console.log(`My name is ${name} and I am ${age} years old.`);
+export function taskFirst() {
+  const task = 'I prefer const when I can.';
+  return task;
 }
 
-function taskNext() {
-  let counter = 0;
-  console.log(counter);
-  counter++;
+export function getLast() {
+  return ' is okay';
 }
 
+export function taskNext() {
+  let combination = 'But sometimes let';
+  combination += getLast();
+
+  return combination;
+}
