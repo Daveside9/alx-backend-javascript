@@ -1,0 +1,21 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "my readme content for 0x02-ES6_classes",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.39.0",
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "alx-backend-javascript"
+  },
+  "author": "",
+  "license": "ISC"
+}
