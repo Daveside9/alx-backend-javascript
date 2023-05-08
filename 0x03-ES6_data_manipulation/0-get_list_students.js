@@ -1,15 +1,7 @@
-module.export default function getListStudents() {
-  const createStudent = (id, firstName, location) => ({
-    id,
-    firstName,
-    location,
-  });
-
+export default function getListStudents() {
   return [
-    createStudent(1, 'Guillaume', 'San Francisco'),
-    createStudent(2, 'James', 'Columbia'),
-    createStudent(5, 'Serena', 'San Francisco'),
+    { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+    { id: 2, firstName: 'James', location: 'Columbia' },
+    { id: 5, firstName: 'Serena', location: 'San Francisco' },
   ];
 }
-
-module.exports = getListStudents;
